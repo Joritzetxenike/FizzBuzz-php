@@ -5,5 +5,10 @@ use  PHPUnit\Framework\TestCase;
 
 class FizzBuzzTests extends TestCase
 {
-    public function FizzBuzz(){}
+    public function given3ReturnsFizz():void
+    {
+        $fizzBuzz = new FizzBuzzKata();
+
+        $fizzBuzz->convert();
+    }
 }
